@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" data-random-animation="false" data-animation="36">
+    <head>
+
+        <!--Meta Tags-->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="keywords" content="vcard, resume, personal, portfolio, cv, card, responsive" />
+        <meta name="description" content="vCard / Resume / Personal / Portfolio Template" />
+        <meta name="author" content="cosmos-themes" />
+
+        <!--Page Title-->
+        <title>陈少杰的博客</title>
+
+        <!--Plugins Css-->
+        <link rel="stylesheet" href="css/plugins.css">
+        <!--Main Styles Css-->
+        <link rel="stylesheet" href="css/style-light.css">
+
+        <link rel="stylesheet" href="css/blue-color.css">
+
+        <script src="js/modernizr.js"></script>
+
+        <!--Favicons-->
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    </head>
+
+    <body>
+
+        <!--Preloader Start-->
+        <div class="preloader">
+            <div class="loader">
+                <!--Your Name-->
+                <h4>陈少杰</h4>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <!--Preloader End-->
+
+
+
+        <div id="page">
+
+
+            <!--Header Start-->
+            <header>
+                <div class="header-content">
+
+                    <!--Mobile Header-->
+                    <div class="header-mobile">
+                        <a class="header-toggle"><i class="fas fa-bars"></i></a>
+                        <h2>陈少杰</h2>
+                    </div>
+
+                    <!--Main Header-->
+                    <div class="header-main" data-simplebar>
+                        <div class="image-container">
+                            <h2 class="header-name">陈少杰</h2>
+                            <img src="img/csj.png" alt="profile-pic">
+                        </div>
+
+                        <!--Nav Menus-->
+                        <nav class="nav-menu">
+                            <ul>
+                                <li><a href="index-light.html#home"><span class="nav-menu-icon"><i class="lnr lnr-home"></i></span>主页</a> </li>
+                                <li><a href="index-light.html#about"><span class="nav-menu-icon"><i class="lnr lnr-user"></i></span>关于我的介绍</a></li>
+                                <li><a href="index-light.html#blog" class="active"><span class="nav-menu-icon"><i class="lnr lnr-book"></i></span>我的博客</a></li>
+                                <li><a href="index-light.html#contact"><span class="nav-menu-icon"><i class="lnr lnr-envelope"></i></span>联系</a></li>
+                            </ul>
+                        </nav>
+
+                        <!--Nav Footer-->
+                        <div class="nav-footer">
+                            <!--Social Links-->
+                            <ul class="social">
+                                <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube-square"></i></a></li>
+                                <li><a href="#"><i class="fab fa-dribbble-square"></i></a></li>
+                                <li><a href="#"><i class="fab fa-behance-square"></i></a></li>
+                            </ul>
+                            <!--Copyright Text-->
+                            <div class="copy">
+                                <p>2018 &copy; Cosmos-Themes.<br>All Right Reserved.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </header>
+            <!--Header End-->
+
+
+            <!--Main Start-->
+            <div id="main" class="site-main">
+
+                <div class="blog-page">
+                    <div class="blog-image">
+                        <img src="img/blog/img.png" alt="">
+                    </div>
+                    <div class="blog-container">
+                        <div class="row">
+
+                            <!--Blog Heading Start-->
+                            <div class="blog-heading col-md-8 offset-md-2">
+                                <span class="cat">Fashion</span>
+                                <h1>软件质量属性之可用性</h1>
+                                <span class="blog-date">2023年3月2日</span>
+                            </div>
+                            <!--Blog Heading Start-->
+
+                            <!--Blog Content Start-->
+                            <div class="blog-content col-md-10 offset-md-1">
+                                <p>可用性定义：</p>
+                                <p>可用性与系统故障及其相关后果有关。当系统不再提供其规范中所说明的服务时，就出现了系统故障。</p>
+                                <p>一般将系统可用性定义为：</p>
+                                <p>a = 平均正常工作时间 / （平均正常工作时间+平均修复时间）</p>
+                                <p>从这个公式中我们得到了像99.9%的可用性、0.1%的故障率这样的概念。
+
+                                    在计算可用性时，通常不考虑预定的停机时间（即停止服务），因为根据定义是”不需要“系统的。这就导致会出现这种情况：系统停止运行，用户等待系统提供服务，但因为停机时间是预定的，因此不计入故障时间，也就不会影响可用性的数值。</p>
+                                <blockquote>
+                                    提高可用性：
+
+                                    一、故障检测：检测整个系统是否有故障，如果检测到了故障则及时通知厂商的运维人员。
+
+                                    二、故障恢复：在系统出错后，系统能够及时地自动修正错误，给出正确的结果
+
+                                    三、故障避免：提前预想可能存在的问题，并避免其发生
+                                </blockquote>
+                                <p>
+                                    可用性的应用：
+
+                                    通过负载均衡进行无状态服务的失效转移
+
+                                    应用服务器集群的Session管理
+
+                                    　　1.Session复制
+
+                                    　　2.Session绑定
+
+                                    　　3.利用Cookie记录Session
+
+                                    　　4.Session服务器
+
+                                    可用性的保障：
+
+
+                                    可用性的保障
+
+
+
+                                    影响可用性的因素有很多，包括系统故障、基础设施故障、数据故障、安全攻击、系统压力等等。
+
+
+
+                                    可用性的保障涉及到很多层面，其中包括：
+
+
+
+                                    软件的设计、编码、测试、上线和软件配置管理的水平
+
+                                    工程师的人员技能水平
+
+                                    运维的管理和技术水平
+
+                                    数据中心的运营管理水平
+
+                                    依赖于第三方服务的管理水平
+
+                                    对待技术的态度
+
+                                    一个公司的工程文化
+
+                                    领导者对工程的尊重
+                                </p>
+                            </div>
+                            <!--Blog Content End-->
+
+                            <!--Blog Comments Start-->
+<!--                            <div class="blog-comments col-md-8 offset-md-2">-->
+<!--                                <h4 class="mb-40">Post Comments</h4>-->
+<!--                                <ul class="comment-list">-->
+
+<!--                                    <li class="comment">-->
+
+<!--                                        <div class="author-img">-->
+<!--                                            <img src="img/blog/authors/author-1.jpg" alt="">-->
+<!--                                        </div>-->
+<!--                                        <div class="comment-text">-->
+<!--                                            <span class="reply"><a href="#">Reply</a></span>-->
+<!--                                            <h6 class="author">Jane Doe</h6>-->
+<!--                                            <span class="date">June 10, 2018 at 5:39 am</span>-->
+<!--                                            <p>Deep v cliche lomo biodiesel Neutra selfies. Shorts fixie consequat flexitarian four loko </p>-->
+<!--                                        </div>-->
+
+<!--                                    </li>-->
+
+<!--                                    <li class="comment">-->
+
+<!--                                        <div class="author-img">-->
+<!--                                            <img src="img/blog/authors/author-2.jpg" alt="">-->
+<!--                                        </div>-->
+<!--                                        <div class="comment-text">-->
+<!--                                            <span class="reply"><a href="#">Reply</a></span>-->
+<!--                                            <h6 class="author">Jane Doe</h6>-->
+<!--                                            <span class="date">June 10, 2018 at 5:39 am</span>-->
+<!--                                            <p>Deep v cliche lomo biodiesel Neutra selfies. Shorts fixie consequat flexitarian four loko </p>-->
+<!--                                        </div>-->
+
+<!--                                    </li>-->
+
+<!--                                    <li class="comment">-->
+
+<!--                                        <div class="author-img">-->
+<!--                                            <img src="img/blog/authors/author-3.jpg" alt="">-->
+<!--                                        </div>-->
+<!--                                        <div class="comment-text">-->
+<!--                                            <span class="reply"><a href="#">Reply</a></span>-->
+<!--                                            <h6 class="author">Jane Doe</h6>-->
+<!--                                            <span class="date">June 10, 2018 at 5:39 am</span>-->
+<!--                                            <p>Deep v cliche lomo biodiesel Neutra selfies. Shorts fixie consequat flexitarian four loko </p>-->
+<!--                                        </div>-->
+
+<!--                                    </li>-->
+
+<!--                                </ul>-->
+<!--                            </div>-->
+                            <!--Blog Comments End-->
+
+                            <div class="comment-form col-lg-8 offset-lg-2">
+
+                                <h4 class="mt-40 mb-40">留下你的评论</h4>
+                                <form action="#">
+
+                                    <div class="row">
+                                        <!--Name Field-->
+                                        <div class="col-md-6 mb-50">
+                                            <span class="input">
+                                                <input class="input__field" type="text" id="name" name="name" required/>
+                                                <label class="input__label" for="name">姓名</label>
+                                            </span>
+                                        </div>
+
+                                        <!--Email Field-->
+                                        <div class="col-md-6 mb-50">
+                                            <span class="input">
+                                                <input class="input__field" type="text" id="email" name="email" required/>
+                                                <label class="input__label" for="email">Email</label>
+                                            </span>
+                                        </div>
+
+                                        <!--Message Box-->
+                                        <div class="col-md-12 mb-30">
+                                            <span class="input">
+                                                <textarea  class="input__field" id="message" name="message" rows="5" required></textarea>
+                                                <label class="input__label" for="message">你的评论</label>
+                                            </span>
+                                        </div>
+
+                                        <!--Submit Button-->
+                                        <div class="col-md-12">
+                                            <button class="btn-main">发表评论</button>
+                                        </div>
+
+                                    </div>
+
+                                </form>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--Jquery JS-->
+        <script src="js/jquery.min.js"></script>
+        <!--Plugins JS-->
+        <script src="js/plugins.min.js"></script>
+        <!--Site Main JS-->
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
